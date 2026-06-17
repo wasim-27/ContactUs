@@ -2,33 +2,16 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <div>Navigation
-      <p>I na te greater guy of the wolhoel word </p>
-      <nav>I am the new navabar</nav>
-      <p>I na te greater guy of the wolhoel word </p>
-      <p>I na te greater guy of the wolhoel word </p>
-      <p>I na te greater guy of the wolhoel word </p>
-      <p>I na te greater guy of the wolhoel word </p>
-
-      <h1>
-        <p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-          <p>I na te greater guy of the wolhoel word </p>
-        </p>
-      </h1>
-    </div>
-    
-    
-
+    <nav className='container'>
+      <div className='logo'>
+        <img src="/images/logo.png" alt="do some coding logo" />
+      </div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
   )
 }
 

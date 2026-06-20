@@ -11,14 +11,6 @@ const Navigation = () => {
         <li>Home</li>
         <li>About</li>
         <li>Contact</li>
-        <p> I am pseudo</p>
-        <p> I am pseudo</p>
-        <p> I am pseudo</p>
-        <p> I am pseudo</p>
-        <p> I am pseudo</p>
-        <p> I am pseudo</p>
-        <p> I am pseudo</p>
-        <p> I am pseudo</p>
       </ul>
     </nav>
   )

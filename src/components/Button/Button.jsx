@@ -1,8 +1,14 @@
+import { MdMessage } from "react-icons/md";
+import styles from './Button.module.css'
+import { FaHome } from "react-icons/fa";
 import React from 'react'
 
 const Button = () => {
   return (
-    <div>Button</div>
+    <button className={styles.primary_btn}>
+      <MdMessage fontSize="24px"/>
+      VIA SUPPORT CHAT
+    </button>
   )
 }
 

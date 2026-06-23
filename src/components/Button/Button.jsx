@@ -3,11 +3,11 @@ import styles from './Button.module.css'
 import { FaHome } from "react-icons/fa";
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
   return (
     <button className={styles.primary_btn}>
-      <MdMessage fontSize="24px"/>
-      VIA SUPPORT CHAT
+      {props.icon}
+      {props.text}
     </button>
   )
 }

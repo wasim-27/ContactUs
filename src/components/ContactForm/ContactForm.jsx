@@ -12,15 +12,6 @@ const ContactForm = () => {
           <div className={styles.top_btn}>
             <Button text="VIA SUPPORT CHAT" icon={<MdMessage fontSize="24px"/>} />
             <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
-            <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px"/>} />
           </div>
           
         </div>
